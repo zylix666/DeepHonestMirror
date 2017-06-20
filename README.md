@@ -53,7 +53,7 @@ build-DeepHonestMirror-Desktop_Qt_5_8_0_GCC_64bit-Debug
 └── ui_mainwindow.h
 ![alt text](https://github.com/zylix666/DeepHonestMirror/blob/master/2017-06-20%2023-46-02filestructure.png)
 ## Execution result.
-https://goo.gl/photos/PKg3pbNnuBkuXhxW9
+https://www.dropbox.com/s/9rj7g8ihujkcd6r/2017-06-21%2000-03-22%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png?dl=0
 
 #TODO
 There are still many bugs of this application. Will fix them in the future.
