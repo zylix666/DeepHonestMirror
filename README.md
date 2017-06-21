@@ -18,10 +18,12 @@ This is an application showing how to use openCV, Caffe, Qt to detect face and r
 I did not retrain the model. Just apply the pre-built model.
 If you are interested in retraining the model to improve it, the author also provide the training script. https://github.com/GilLevi/AgeGenderDeepLearning
 
-* To download the pre-built model, you can visit the Gist page. /home/simonli/build-DeepHonestMirror-Desktop_Qt_5_8_0_GCC_64bit-Debug/models
+* To download the pre-built model, you can visit the Gist page. https://gist.github.com/GilLevi/c9e99062283c719c03de
 
 ## The model folder.
-You should download the model files and put them into the build folder like below:
+You should download the model files and put them into the build folder .
+For example, /home/simonli/build-DeepHonestMirror-Desktop_Qt_5_8_0_GCC_64bit-Debug/models
+like below:
 
 build-DeepHonestMirror-Desktop_Qt_5_8_0_GCC_64bit-Debug
 ├── classifier.o
