@@ -81,8 +81,8 @@ void FaceDetector::detectAndDraw( Mat& img, CascadeClassifier& cascade,
         if( 0.75 < aspect_ratio && aspect_ratio < 1.3 )
         {
             //Prepare crop buffer
-            cv::Point top_left = Point(cvRound(r->x*scale)-5, cvRound(r->y*scale)-5);
-            cv::Point bottom_right = Point(cvRound((r->x + r->width-1)*scale)+10, cvRound((r->y + r->height-1)*scale)+10);
+            cv::Point top_left = Point(cvRound(r->x*scale), cvRound(r->y*scale));
+            cv::Point bottom_right = Point(cvRound((r->x + r->width-1)*scale), cvRound((r->y + r->height-1)*scale));
             //qDebug() << "ROI width = " << cvRound((r->x + r->width-1)*scale)-cvRound(r->x*scale);
             //qDebug() << "ROI height = " << cvRound((r->y + r->height-1)*scale)-cvRound(r->y*scale);
             cv::Rect  obj_area(top_left, bottom_right);
