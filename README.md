@@ -18,10 +18,12 @@ This is an application showing how to use openCV, Caffe, Qt to detect face and r
 I did not retrain the model. Just apply the pre-built model.
 If you are interested in retraining the model to improve it, the author also provide the training script. https://github.com/GilLevi/AgeGenderDeepLearning
 
-* To download the pre-built model, you can visit the Gist page. /home/simonli/build-DeepHonestMirror-Desktop_Qt_5_8_0_GCC_64bit-Debug/models
+* To download the pre-built model, you can visit the Gist page. https://gist.github.com/GilLevi/c9e99062283c719c03de
 
 ## The model folder.
-You should download the model files and put them into the build folder like below:
+You should download the model files and put them into the build folder .
+For example, /home/simonli/build-DeepHonestMirror-Desktop_Qt_5_8_0_GCC_64bit-Debug/models
+like below:
 
 build-DeepHonestMirror-Desktop_Qt_5_8_0_GCC_64bit-Debug
 ├── classifier.o
@@ -52,3 +54,11 @@ build-DeepHonestMirror-Desktop_Qt_5_8_0_GCC_64bit-Debug
 ├── roi_analyzer.o
 └── ui_mainwindow.h
 ![alt text](https://github.com/zylix666/DeepHonestMirror/blob/master/2017-06-20%2023-46-02filestructure.png)
+
+## Execution result.
+https://www.dropbox.com/s/9rj7g8ihujkcd6r/2017-06-21%2000-03-22%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png?dl=0
+The above screenshot is Image mode. If you want to use camera mode, just uncheck the Image mode box, then click "preview" button, you will see face detection and click Analyze to see the result.
+The accuracy is not guaranteed for both image mode and camera mode.
+
+#TODO
+There are still many bugs of this application. Will fix them in the future.
