@@ -224,7 +224,7 @@ void MainWindow::open(){
     qDebug() << __FUNCTION__;
     QFileDialog dialog(this, tr("Open File"));
     initializeImageFileDialog(dialog, QFileDialog::AcceptOpen);
-
+    dialog.setOption(QFileDialog::DontUseNativeDialog);
     while (dialog.exec() == QDialog::Accepted && !loadFile(dialog.selectedFiles().first())) {}
 }
 
