@@ -55,6 +55,10 @@ build-DeepHonestMirror-Desktop_Qt_5_8_0_GCC_64bit-Debug
 └── ui_mainwindow.h
 ![alt text](https://github.com/zylix666/DeepHonestMirror/blob/master/2017-06-20%2023-46-02filestructure.png)
 
+## Models and taglist
+I put the tar ball here but not guarantee to download.
+https://www.dropbox.com/s/n3u7njayoc3rqhe/models.tar.bz2?dl=0
+
 ## Execution result.
 https://www.dropbox.com/s/9rj7g8ihujkcd6r/2017-06-21%2000-03-22%20%E7%9A%84%E8%9E%A2%E5%B9%95%E6%93%B7%E5%9C%96.png?dl=0
 The above screenshot is Image mode. If you want to use camera mode, just uncheck the Image mode box, then click "preview" button, you will see face detection and click Analyze to see the result.
