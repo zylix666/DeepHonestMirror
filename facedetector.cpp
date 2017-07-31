@@ -20,7 +20,7 @@ void FaceDetector::initial_FaceDetector()
 }
 
 cv::Mat FaceDetector::get_annotated_image(cv::Mat original, double scale_factor, bool tryflip){
-    Annotated = original.clone();
+    original.copyTo(Annotated);
     detectAndDraw(Annotated, cascade, nestedCascade, scale_factor, false);
     return Annotated;
 }

@@ -36,7 +36,7 @@ void CVcamera::run()
 {
     while(!this->isInterruptionRequested()){
         while(!isPreview){
-            capture >> frame;
+            capture.read(frame);
             RGBframe = fdet->get_annotated_image(frame,1.3, false);
             if (RGBframe.channels()== 3){
                 cv::cvtColor(RGBframe, RGBframe, CV_BGR2RGB);
