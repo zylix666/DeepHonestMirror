@@ -66,3 +66,7 @@ The accuracy is not guaranteed for both image mode and camera mode.
 
 #TODO
 There are still many bugs of this application. Will fix them in the future.
+
+# Ackownledge
+Gil Levi and Tal Hassner, Age and Gender Classification using Convolutional Neural Networks, IEEE Workshop on Analysis and Modeling of Faces and Gestures (AMFG), at the IEEE Conf. on Computer Vision and Pattern Recognition (CVPR), Boston, June 2015
+
